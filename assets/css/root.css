@@ -67,15 +67,45 @@
     font-weight: var(--fw-700);
 }
 
+@media (max-width:1200px) {
+    .card1 {
+        width: 657px;
+        height: 397px;
+    }
+
+    .box1 {
+        width: 590px;
+        height: 287px;
+    }
+
+    .position-absolute1 {
+        position: absolute;
+        top: 154%;
+        left: 22%;
+    }
+}
+
 @media (max-width:992px) {
     .box2 {
         border: none;
     }
 
+    .box1 {
+        width: 452px;
+        height: 287px;
+    }
+
     .card1 {
-        width: 453px;
+        width: 640px;
         height: 397px;
     }
+
+    .position-absolute1 {
+        position: absolute;
+        top: 122%;
+        left: 15%;
+    }
+    
 }
 
 @media (max-width:768px) {
@@ -83,13 +113,24 @@
         width: 323px;
         height: 214px;
     }
+
+    .card1 {
+        width: 500px;
+        height: 397px;
+    }
+
+    .position-absolute1 {
+        position: absolute;
+        top: 108%;
+        left: 15%;
+    }
+
+
+
 }
 
 @media (max-width:576px) {
-    .card1 {
-        width: 320px;
-        height: 297px;
-    }
+
 
     .box1 {
         width: 270px;
@@ -101,10 +142,20 @@
         top: 29%;
         left: 20%;
     }
+           .card1 {
+               width: 340px;
+               height: 233px;
+           }
+    
+           .position-absolute1 {
+               position: absolute;
+               top: 100%;
+               left: 13%;
+           }
 
 
     .bg-image1 {
-        background-image: url(../image/first-img.png);
+        background-image: url(../image/1section_image1.png);
         background-position: left;
         background-size: cover;
         background-repeat: no-repeat;
@@ -112,10 +163,6 @@
 }
 
 @media (max-width:400px) {
-    .card1 {
-        width: 290px;
-        height: 297px;
-    }
 
     .box1 {
         width: 220px;
@@ -124,9 +171,19 @@
 
     .position-absolute4 {
         position: absolute;
-        top: 15%;
-        left: 9%;
+        top: 17%;
+        left: 15%;
     }
+        .card1 {
+            width: 287px;
+            height: 230px;
+        }
+    
+        .position-absolute1 {
+            position: absolute;
+            top: 79%;
+            left: 11%;
+        }
 }
 
 @media (min-width:768px) and (max-width:992px) {
@@ -163,7 +220,7 @@
         --fs-28: 24px;
         --fs-35: 26px;
         --fs-48: 35px;
-        --fs-76: 50px;
+        --fs-76: 40px;
         --fs-96: 96px;
     }
 }
