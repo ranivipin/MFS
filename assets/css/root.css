@@ -68,15 +68,6 @@
 }
 
 @media (max-width:1200px) {
-    .card1 {
-        width: 657px;
-        height: 397px;
-    }
-
-    .box1 {
-        width: 590px;
-        height: 287px;
-    }
 
     .position-absolute1 {
         position: absolute;
@@ -90,34 +81,15 @@
         border: none;
     }
 
-    .box1 {
-        width: 452px;
-        height: 287px;
-    }
-
-    .card1 {
-        width: 640px;
-        height: 397px;
-    }
-
     .position-absolute1 {
         position: absolute;
         top: 122%;
         left: 15%;
     }
-    
+
 }
 
 @media (max-width:768px) {
-    .box1 {
-        width: 323px;
-        height: 214px;
-    }
-
-    .card1 {
-        width: 500px;
-        height: 397px;
-    }
 
     .position-absolute1 {
         position: absolute;
@@ -131,27 +103,20 @@
 
 @media (max-width:576px) {
 
-
     .box1 {
-        width: 270px;
-        height: 214px;
+        width: 70%;
     }
 
-    .position-absolute4 {
-        position: absolute;
-        top: 29%;
-        left: 20%;
+    .card1 {
+        width: 340px;
+        height: 233px;
     }
-           .card1 {
-               width: 340px;
-               height: 233px;
-           }
-    
-           .position-absolute1 {
-               position: absolute;
-               top: 100%;
-               left: 13%;
-           }
+
+    .position-absolute1 {
+        position: absolute;
+        top: 100%;
+        left: 13%;
+    }
 
 
     .bg-image1 {
@@ -164,26 +129,17 @@
 
 @media (max-width:400px) {
 
-    .box1 {
-        width: 220px;
-        height: 214px;
+
+    .card1 {
+        width: 287px;
+        height: 230px;
     }
 
-    .position-absolute4 {
+    .position-absolute1 {
         position: absolute;
-        top: 17%;
-        left: 15%;
+        top: 79%;
+        left: 11%;
     }
-        .card1 {
-            width: 287px;
-            height: 230px;
-        }
-    
-        .position-absolute1 {
-            position: absolute;
-            top: 79%;
-            left: 11%;
-        }
 }
 
 @media (min-width:768px) and (max-width:992px) {
